@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>All Reviews | Shelfwise</title>
+<meta name="description" content="Every in-depth review on Shelfwise in one place — courses, ebooks, software, and templates, filterable by category, level, and price.">
+<link rel="canonical" href="https://www.shelfwise.example/reviews">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="container">
+    <nav class="nav" aria-label="Primary">
+      <a href="index.html" class="brand"><span class="brand-mark" aria-hidden="true"></span>Shelfwise</a>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="courses.html">Courses</a></li>
+        <li><a href="ebooks.html">Ebooks</a></li>
+        <li><a href="software.html">Software &amp; Tools</a></li>
+        <li><a href="reviews.html" class="active">Reviews</a></li>
+        <li><a href="blog.html">Blog</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+      <div class="nav-actions">
+        <a href="courses.html" class="btn btn-outline btn-sm">Explore Products</a>
+        <button class="nav-toggle" aria-label="Open menu" aria-expanded="false"><span></span><span></span><span></span></button>
+      </div>
+    </nav>
+  </div>
+</header>
+
+<main>
+  <div class="container">
+    <nav class="breadcrumbs" aria-label="Breadcrumb">
+      <a href="index.html">Home</a><span aria-hidden="true">/</span><span class="current">Reviews</span>
+    </nav>
+    <div class="page-hero">
+      <span class="eyebrow">85 in-depth reviews</span>
+      <h1>All reviews</h1>
+      <p>Every product we've written a full review for, across courses, ebooks, software, and templates — one place to browse and compare.</p>
+    </div>
+
+    <div class="filter-bar">
+      <div class="filter-search">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="M21 21l-4.3-4.3"/></svg>
+        <input type="text" data-filter-search placeholder="Search reviews…" aria-label="Search reviews">
+      </div>
+      <select class="filter-select" data-filter-category aria-label="Filter by category">
+        <option value="all">All categories</option>
+        <option value="courses">Courses</option>
+        <option value="ebooks">Ebooks</option>
+        <option value="software">Software</option>
+        <option value="templates">Templates</option>
+      </select>
+      <select class="filter-select" data-filter-level aria-label="Filter by skill level">
+        <option value="all">Any level</option>
+        <option value="beginner">Beginner</option>
+        <option value="intermediate">Intermediate</option>
+        <option value="advanced">Advanced</option>
+      </select>
+      <select class="filter-select" data-filter-type aria-label="Filter by product type">
+        <option value="all">Any type</option>
+        <option value="course">Course</option>
+        <option value="ebook">Ebook</option>
+        <option value="software">Software</option>
+        <option value="template">Template</option>
+      </select>
+      <select class="filter-select" data-filter-sort aria-label="Sort products">
+        <option value="rating">Highest Rated</option>
+        <option value="recommended">Recommended</option>
+        <option value="newest">Newest</option>
+        <option value="price-asc">Price: Low to High</option>
+        <option value="price-desc">Price: High to Low</option>
+      </select>
+      <span class="filter-count" data-filter-count>6 products</span>
+    </div>
+
+    <div class="product-grid" data-product-grid data-api-source style="margin-bottom:60px;">
+
+      <article class="ticket" data-product data-name="Data Analytics with Python" data-desc="Hands-on course covering pandas, SQL and visualization." data-category="courses" data-level="intermediate" data-type="course" data-rating="4.8" data-price="129" data-added="9" data-recommended="1">
+        <div class="ticket-media"><img src="https://placehold.co/480x300/EBEEFF/3654FF?text=Course" alt="Data Analytics with Python course preview (demo content)" loading="lazy"><span class="ticket-stamp">Demo product</span></div>
+        <div class="ticket-body">
+          <span class="ticket-cat">Data Analytics · Course</span>
+          <h3>Data Analytics with Python</h3>
+          <p class="ticket-desc">A project-based course covering pandas, SQL, and dashboarding.</p>
+          <div class="ticket-rating"><span class="stars">★★★★★</span><span class="rating-num">4.8</span><span class="review-count">(312)</span></div>
+          <div class="ticket-features"><span class="chip">40 hrs</span><span class="chip">Certificate</span></div>
+        </div>
+        <div class="ticket-strip"><span class="ticket-price">$129</span><a href="review-template.html" class="btn-ghost btn-sm">View Review</a></div>
+        <div class="ticket-cta-row"><a href="#" class="btn btn-primary btn-sm" rel="nofollow sponsored" data-affiliate-slot="reviews-data-analytics">Get Product</a></div>
+      </article>
+
+      <article class="ticket" data-product data-name="FlowBoard Project Suite" data-desc="Lightweight project management tool aimed at small teams." data-category="software" data-level="beginner" data-type="software" data-rating="4.7" data-price="12" data-added="5" data-recommended="3">
+        <div class="ticket-media"><img src="https://placehold.co/480x300/FCF0DC/F0A93B?text=Software" alt="FlowBoard Project Suite dashboard preview (demo content)" loading="lazy"><span class="ticket-stamp">Demo product</span></div>
+        <div class="ticket-body">
+          <span class="ticket-cat">Productivity Tools · Software</span>
+          <h3>FlowBoard Project Suite</h3>
+          <p class="ticket-desc">Fast, uncluttered project management with automations, timelines, and client-facing portals.</p>
+          <div class="ticket-rating"><span class="stars">★★★★★</span><span class="rating-num">4.7</span><span class="review-count">(540)</span></div>
+          <div class="ticket-features"><span class="chip">Free tier available</span><span class="chip">Client portals</span></div>
+        </div>
+        <div class="ticket-strip"><span class="ticket-price">$12.00/mo</span><a href="review-template.html" class="btn-ghost btn-sm">View Review</a></div>
+        <div class="ticket-cta-row"><a href="#" class="btn btn-primary btn-sm" rel="nofollow sponsored" data-affiliate-slot="reviews-flowboard">Get Product</a></div>
+      </article>
+
+      <article class="ticket" data-product data-name="The Freelancer's Pricing Playbook" data-desc="A practical guide to pricing services and raising your rates." data-category="ebooks" data-level="beginner" data-type="ebook" data-rating="4.7" data-price="19" data-added="4" data-recommended="2">
+        <div class="ticket-media"><img src="https://placehold.co/480x300/E7F6ED/1E9E5A?text=Ebook" alt="The Freelancer's Pricing Playbook cover (demo content)" loading="lazy"><span class="ticket-stamp">Demo product</span></div>
+        <div class="ticket-body">
+          <span class="ticket-cat">Business · Ebook</span>
+          <h3>The Freelancer's Pricing Playbook</h3>
+          <p class="ticket-desc">120 pages covering pricing psychology, proposal templates, and how to raise rates without losing clients.</p>
+          <div class="ticket-rating"><span class="stars">★★★★☆</span><span class="rating-num">4.7</span><span class="review-count">(198)</span></div>
+          <div class="ticket-features"><span class="chip">120 pages</span><span class="chip">Templates included</span></div>
+        </div>
+        <div class="ticket-strip"><span class="ticket-price">$19</span><a href="review-template.html" class="btn-ghost btn-sm">View Review</a></div>
+        <div class="ticket-cta-row"><a href="#" class="btn btn-primary btn-sm" rel="nofollow sponsored" data-affiliate-slot="reviews-pricing-playbook">Get Product</a></div>
+      </article>
+
+      <article class="ticket" data-product data-name="UX Research Certification" data-desc="Research methods, synthesis, and portfolio review." data-category="courses" data-level="advanced" data-type="certification" data-rating="4.7" data-price="249" data-added="0" data-recommended="4">
+        <div class="ticket-media"><img src="https://placehold.co/480x300/EBEEFF/3654FF?text=Course" alt="UX Research Certification preview (demo content)" loading="lazy"><span class="ticket-stamp">Demo product</span></div>
+        <div class="ticket-body">
+          <span class="ticket-cat">Design · Certification</span>
+          <h3>UX Research Certification</h3>
+          <p class="ticket-desc">Research methods, synthesis, and portfolio review.</p>
+          <div class="ticket-rating"><span class="stars">★★★★★</span><span class="rating-num">4.7</span><span class="review-count">(156)</span></div>
+          <div class="ticket-features"><span class="chip">70 hrs</span><span class="chip">Mentor reviews</span></div>
+        </div>
+        <div class="ticket-strip"><span class="ticket-price">$249</span><a href="reviews.html" class="btn-ghost btn-sm">View Review</a></div>
+        <div class="ticket-cta-row"><a href="#" class="btn btn-primary btn-sm" rel="nofollow sponsored" data-affiliate-slot="reviews-ux-research">Get Product</a></div>
+      </article>
+
+      <article class="ticket" data-product data-name="Figma for Product Design Templates" data-desc="A bundle of ready-made Figma component libraries." data-category="templates" data-level="intermediate" data-type="template" data-rating="4.6" data-price="29" data-added="2" data-recommended="15">
+        <div class="ticket-media"><img src="https://placehold.co/480x300/FBEAE8/C4453B?text=Template" alt="Figma design template pack preview (demo content)" loading="lazy"><span class="ticket-stamp">Demo product</span></div>
+        <div class="ticket-body">
+          <span class="ticket-cat">Design · Template</span>
+          <h3>Figma for Product Design Templates</h3>
+          <p class="ticket-desc">Component libraries and layout kits for shipping product UI mockups faster.</p>
+          <div class="ticket-rating"><span class="stars">★★★★☆</span><span class="rating-num">4.6</span><span class="review-count">(88)</span></div>
+          <div class="ticket-features"><span class="chip">One-time payment</span><span class="chip">Auto-layout ready</span></div>
+        </div>
+        <div class="ticket-strip"><span class="ticket-price">$29</span><a href="reviews.html" class="btn-ghost btn-sm">View Review</a></div>
+        <div class="ticket-cta-row"><a href="#" class="btn btn-primary btn-sm" rel="nofollow sponsored" data-affiliate-slot="reviews-figma-pack">Get Product</a></div>
+      </article>
+
+      <article class="ticket" data-product data-name="Python Basics for Data" data-desc="Free introductory course for absolute beginners." data-category="courses" data-level="beginner" data-type="course" data-rating="4.2" data-price="0" data-added="3" data-recommended="8">
+        <div class="ticket-media"><img src="https://placehold.co/480x300/EBEEFF/3654FF?text=Course" alt="Python Basics for Data preview (demo content)" loading="lazy"><span class="ticket-stamp">Demo product</span></div>
+        <div class="ticket-body">
+          <span class="ticket-cat">Programming · Course</span>
+          <h3>Python Basics for Data</h3>
+          <p class="ticket-desc">A gentle, free introduction to Python for data work.</p>
+          <div class="ticket-rating"><span class="stars">★★★★☆</span><span class="rating-num">4.2</span><span class="review-count">(210)</span></div>
+          <div class="ticket-features"><span class="chip">Free</span><span class="chip">8 hrs</span></div>
+        </div>
+        <div class="ticket-strip"><span class="ticket-price">Free</span><a href="reviews.html" class="btn-ghost btn-sm">View Review</a></div>
+        <div class="ticket-cta-row"><a href="#" class="btn btn-primary btn-sm" rel="nofollow sponsored" data-affiliate-slot="reviews-python-basics">Get Product</a></div>
+      </article>
+
+    </div>
+
+    <div class="empty-state" data-empty-state style="display:none;">
+      <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" style="margin:0 auto;color:var(--muted);"><circle cx="11" cy="11" r="7"/><path d="M21 21l-4.3-4.3"/></svg>
+      <h3>No reviews match those filters</h3>
+      <p>Try clearing your search or choosing a different category.</p>
+    </div>
+  </div>
+</main>
+
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-top">
+      <div class="footer-brand"><a href="index.html" class="brand"><span class="brand-mark" aria-hidden="true"></span>Shelfwise</a><p>A curated catalog of online courses, ebooks, software, and tools — reviewed honestly, updated regularly.</p></div>
+      <div class="footer-col"><h5>Browse</h5><ul><li><a href="courses.html">Courses</a></li><li><a href="ebooks.html">Ebooks</a></li><li><a href="software.html">Software &amp; Tools</a></li><li><a href="reviews.html">Reviews</a></li></ul></div>
+      <div class="footer-col"><h5>Categories</h5><ul><li><a href="business.html">Business</a></li><li><a href="digital-marketing.html">Digital Marketing</a></li><li><a href="programming.html">Programming &amp; Tech</a></li><li><a href="data-analytics.html">Data Analytics</a></li></ul></div>
+      <div class="footer-col"><h5>Company</h5><ul><li><a href="about.html">About</a></li><li><a href="blog.html">Blog</a></li><li><a href="contact.html">Contact</a></li><li><a href="comparison.html">Compare products</a></li></ul></div>
+      <div class="footer-col"><h5>Legal</h5><ul><li><a href="privacy-policy.html">Privacy Policy</a></li><li><a href="terms.html">Terms &amp; Conditions</a></li><li><a href="affiliate-disclosure.html">Affiliate Disclosure</a></li></ul></div>
+    </div>
+    <div class="footer-bottom"><span>© 2026 Shelfwise. All rights reserved. All products shown are demo placeholders.</span><div class="legal-links"><a href="privacy-policy.html">Privacy</a><a href="terms.html">Terms</a><a href="affiliate-disclosure.html">Disclosure</a></div></div>
+  </div>
+</footer>
+
+<script src="js/config.js"></script>
+<script src="js/api.js"></script>
+<script src="js/script.js"></script>
+</body>
+</html>

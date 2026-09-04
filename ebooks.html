@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Ebooks — Reviews &amp; Comparisons | Shelfwise</title>
+<meta name="description" content="Browse and compare the best digital ebooks and guides across business, marketing, and productivity — filter by level, type, and price.">
+<link rel="canonical" href="https://www.shelfwise.example/ebooks">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="container">
+    <nav class="nav" aria-label="Primary">
+      <a href="index.html" class="brand"><span class="brand-mark" aria-hidden="true"></span>Shelfwise</a>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="courses.html">Courses</a></li>
+        <li><a href="ebooks.html" class="active">Ebooks</a></li>
+        <li><a href="software.html">Software &amp; Tools</a></li>
+        <li><a href="reviews.html">Reviews</a></li>
+        <li><a href="blog.html">Blog</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+      <div class="nav-actions">
+        <a href="courses.html" class="btn btn-outline btn-sm">Explore Products</a>
+        <button class="nav-toggle" aria-label="Open menu" aria-expanded="false"><span></span><span></span><span></span></button>
+      </div>
+    </nav>
+  </div>
+</header>
+
+<main>
+  <div class="container">
+    <nav class="breadcrumbs" aria-label="Breadcrumb">
+      <a href="index.html">Home</a><span aria-hidden="true">/</span><span class="current">Ebooks</span>
+    </nav>
+    <div class="page-hero">
+      <span class="eyebrow">48 titles catalogued</span>
+      <h1>Ebooks &amp; guides</h1>
+      <p>Downloadable guides and playbooks, reviewed for how much they actually help you get something done — filter below to find one that fits.</p>
+    </div>
+
+    <div class="filter-bar">
+      <div class="filter-search">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="M21 21l-4.3-4.3"/></svg>
+        <input type="text" data-filter-search placeholder="Search ebooks…" aria-label="Search ebooks">
+      </div>
+      <select class="filter-select" data-filter-category aria-label="Filter by category">
+        <option value="all">All categories</option>
+        <option value="courses">Courses</option>
+        <option value="ebooks">Ebooks</option>
+        <option value="software">Software</option>
+        <option value="templates">Templates</option>
+      </select>
+      <select class="filter-select" data-filter-level aria-label="Filter by skill level">
+        <option value="all">Any level</option>
+        <option value="beginner">Beginner</option>
+        <option value="intermediate">Intermediate</option>
+        <option value="advanced">Advanced</option>
+      </select>
+      <select class="filter-select" data-filter-type aria-label="Filter by product type">
+        <option value="all">Any type</option>
+        <option value="course">Course</option>
+        <option value="ebook">Ebook</option>
+        <option value="software">Software</option>
+        <option value="template">Template</option>
+      </select>
+      <select class="filter-select" data-filter-sort aria-label="Sort products">
+        <option value="recommended">Recommended</option>
+        <option value="rating">Highest Rated</option>
+        <option value="newest">Newest</option>
+        <option value="price-asc">Price: Low to High</option>
+        <option value="price-desc">Price: High to Low</option>
+      </select>
+      <span class="filter-count" data-filter-count>4 products</span>
+    </div>
+
+    <div class="product-grid" data-product-grid data-api-source data-api-type="ebook" style="margin-bottom:60px;">
+
+      <article class="ticket" data-product data-name="The Freelancer's Pricing Playbook" data-desc="A practical guide to pricing services and raising your rates." data-category="ebooks" data-level="beginner" data-type="ebook" data-rating="4.7" data-price="19" data-added="4" data-recommended="2">
+        <div class="ticket-media"><img src="https://placehold.co/480x300/E7F6ED/1E9E5A?text=Ebook" alt="The Freelancer's Pricing Playbook cover (demo content)" loading="lazy"><span class="ticket-stamp">Demo product</span></div>
+        <div class="ticket-body">
+          <span class="ticket-cat">Business · Ebook</span>
+          <h3>The Freelancer's Pricing Playbook</h3>
+          <p class="ticket-desc">120 pages covering pricing psychology, proposal templates, and how to raise rates without losing clients.</p>
+          <div class="ticket-rating"><span class="stars">★★★★☆</span><span class="rating-num">4.7</span><span class="review-count">(198)</span></div>
+          <div class="ticket-features"><span class="chip">120 pages</span><span class="chip">Templates included</span></div>
+        </div>
+        <div class="ticket-strip"><span class="ticket-price">$19</span><a href="review-template.html" class="btn-ghost btn-sm">View Review</a></div>
+        <div class="ticket-cta-row"><a href="#" class="btn btn-primary btn-sm" rel="nofollow sponsored" data-affiliate-slot="ebooks-pricing-playbook">Get Product</a></div>
+      </article>
+
+      <article class="ticket" data-product data-name="The Complete Online Learning Guide" data-desc="How to choose and finish online courses without wasting money." data-category="ebooks" data-level="beginner" data-type="ebook" data-rating="4.4" data-price="12" data-added="1" data-recommended="12">
+        <div class="ticket-media"><img src="https://placehold.co/480x300/E7F6ED/1E9E5A?text=Ebook" alt="The Complete Online Learning Guide cover (demo content)" loading="lazy"><span class="ticket-stamp">Demo product</span></div>
+        <div class="ticket-body">
+          <span class="ticket-cat">Education · Ebook</span>
+          <h3>The Complete Online Learning Guide</h3>
+          <p class="ticket-desc">A short, practical guide to evaluating courses, budgeting time, and actually finishing what you start.</p>
+          <div class="ticket-rating"><span class="stars">★★★★☆</span><span class="rating-num">4.4</span><span class="review-count">(53)</span></div>
+          <div class="ticket-features"><span class="chip">64 pages</span><span class="chip">Checklists</span></div>
+        </div>
+        <div class="ticket-strip"><span class="ticket-price">$12</span><a href="reviews.html" class="btn-ghost btn-sm">View Review</a></div>
+        <div class="ticket-cta-row"><a href="#" class="btn btn-primary btn-sm" rel="nofollow sponsored" data-affiliate-slot="ebooks-learning-guide">Get Product</a></div>
+      </article>
+
+      <article class="ticket" data-product data-name="Cold Email Scripts That Convert" data-desc="Swipe-file style ebook of outreach templates." data-category="ebooks" data-level="beginner" data-type="ebook" data-rating="4.3" data-price="15" data-added="3" data-recommended="13">
+        <div class="ticket-media"><img src="https://placehold.co/480x300/E7F6ED/1E9E5A?text=Ebook" alt="Cold Email Scripts That Convert cover (demo content)" loading="lazy"><span class="ticket-stamp">Demo product</span></div>
+        <div class="ticket-body">
+          <span class="ticket-cat">Digital Marketing · Ebook</span>
+          <h3>Cold Email Scripts That Convert</h3>
+          <p class="ticket-desc">A library of tested outreach scripts and subject lines, annotated with why each one works.</p>
+          <div class="ticket-rating"><span class="stars">★★★★☆</span><span class="rating-num">4.3</span><span class="review-count">(41)</span></div>
+          <div class="ticket-features"><span class="chip">50+ scripts</span><span class="chip">Editable</span></div>
+        </div>
+        <div class="ticket-strip"><span class="ticket-price">$15</span><a href="reviews.html" class="btn-ghost btn-sm">View Review</a></div>
+        <div class="ticket-cta-row"><a href="#" class="btn btn-primary btn-sm" rel="nofollow sponsored" data-affiliate-slot="ebooks-cold-email">Get Product</a></div>
+      </article>
+
+      <article class="ticket" data-product data-name="Data Storytelling Field Guide" data-desc="How to turn spreadsheets into presentations people remember." data-category="ebooks" data-level="intermediate" data-type="ebook" data-rating="4.6" data-price="0" data-added="7" data-recommended="14">
+        <div class="ticket-media"><img src="https://placehold.co/480x300/E7F6ED/1E9E5A?text=Ebook" alt="Data Storytelling Field Guide cover (demo content)" loading="lazy"><span class="ticket-stamp">Demo product</span></div>
+        <div class="ticket-body">
+          <span class="ticket-cat">Data Analytics · Ebook</span>
+          <h3>Data Storytelling Field Guide</h3>
+          <p class="ticket-desc">A free primer on structuring a data narrative, with before/after chart examples.</p>
+          <div class="ticket-rating"><span class="stars">★★★★★</span><span class="rating-num">4.6</span><span class="review-count">(76)</span></div>
+          <div class="ticket-features"><span class="chip">Free</span><span class="chip">38 pages</span></div>
+        </div>
+        <div class="ticket-strip"><span class="ticket-price">Free</span><a href="reviews.html" class="btn-ghost btn-sm">View Review</a></div>
+        <div class="ticket-cta-row"><a href="#" class="btn btn-primary btn-sm" rel="nofollow sponsored" data-affiliate-slot="ebooks-data-storytelling">Get Product</a></div>
+      </article>
+
+    </div>
+
+    <div class="empty-state" data-empty-state style="display:none;">
+      <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" style="margin:0 auto;color:var(--muted);"><circle cx="11" cy="11" r="7"/><path d="M21 21l-4.3-4.3"/></svg>
+      <h3>No ebooks match those filters</h3>
+      <p>Try clearing your search or choosing a different category.</p>
+    </div>
+  </div>
+</main>
+
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-top">
+      <div class="footer-brand"><a href="index.html" class="brand"><span class="brand-mark" aria-hidden="true"></span>Shelfwise</a><p>A curated catalog of online courses, ebooks, software, and tools — reviewed honestly, updated regularly.</p></div>
+      <div class="footer-col"><h5>Browse</h5><ul><li><a href="courses.html">Courses</a></li><li><a href="ebooks.html">Ebooks</a></li><li><a href="software.html">Software &amp; Tools</a></li><li><a href="reviews.html">Reviews</a></li></ul></div>
+      <div class="footer-col"><h5>Categories</h5><ul><li><a href="business.html">Business</a></li><li><a href="digital-marketing.html">Digital Marketing</a></li><li><a href="programming.html">Programming &amp; Tech</a></li><li><a href="data-analytics.html">Data Analytics</a></li></ul></div>
+      <div class="footer-col"><h5>Company</h5><ul><li><a href="about.html">About</a></li><li><a href="blog.html">Blog</a></li><li><a href="contact.html">Contact</a></li><li><a href="comparison.html">Compare products</a></li></ul></div>
+      <div class="footer-col"><h5>Legal</h5><ul><li><a href="privacy-policy.html">Privacy Policy</a></li><li><a href="terms.html">Terms &amp; Conditions</a></li><li><a href="affiliate-disclosure.html">Affiliate Disclosure</a></li></ul></div>
+    </div>
+    <div class="footer-bottom"><span>© 2026 Shelfwise. All rights reserved. All products shown are demo placeholders.</span><div class="legal-links"><a href="privacy-policy.html">Privacy</a><a href="terms.html">Terms</a><a href="affiliate-disclosure.html">Disclosure</a></div></div>
+  </div>
+</footer>
+
+<script src="js/config.js"></script>
+<script src="js/api.js"></script>
+<script src="js/script.js"></script>
+</body>
+</html>
