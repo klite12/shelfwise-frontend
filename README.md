@@ -3,13 +3,18 @@
 Static frontend for Shelfwise, ready to push to GitHub and deploy on Vercel.
 
 ## Real content (not demo/placeholder)
-- python-for-everybody-review.html — an original, fact-checked review of Coursera's
-  Python for Everybody Specialization. Links out to the real course page (not yet
-  an affiliate link — see the disclosure note on that page).
-- choosing-an-online-programming-course.html — an original evergreen advice article,
-  linking to the review above.
-Both are linked from blog.html, and featured (outside the API-driven product grid,
-so api.js never overwrites them) on courses.html and reviews.html.
+- python-for-everybody-review.html — Coursera's Python for Everybody Specialization
+- google-data-analytics-review.html — Google's Data Analytics Professional Certificate
+- grammarly-review.html — Grammarly's free vs Pro plans
+- atomic-habits-review.html — Atomic Habits by James Clear (Kindle/ebook)
+- choosing-an-online-programming-course.html — original evergreen advice article
+All are fact-checked, original writing (not copied from any source). None have
+real affiliate links yet — each has an honest disclosure note saying the link
+goes directly to the merchant with no affiliate relationship yet. Update those
+links once approved into an affiliate program.
+Featured on courses.html, software.html, ebooks.html, reviews.html, and blog.html
+— all placed OUTSIDE the API-driven product grids, so js/api.js never overwrites
+them when it loads live products from the backend.
 
 ## What's included
 - index.html, courses.html, comparison.html, review-template.html, blog.html
