@@ -3,6 +3,8 @@
 Static frontend for Shelfwise, ready to push to GitHub and deploy on Vercel.
 
 ## Real content (not demo/placeholder)
+- affiliate-disclosure.html — required now that a real Amazon affiliate link is live;
+  linked from every page's footer
 - python-for-everybody-review.html — Coursera's Python for Everybody Specialization
 - google-data-analytics-review.html — Google's Data Analytics Professional Certificate
 - grammarly-review.html — Grammarly's free vs Pro plans
