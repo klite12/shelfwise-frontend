@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url><loc>https://shelfwise-frontend.vercel.app/index.html</loc><changefreq>weekly</changefreq><priority>1.0</priority></url>
+  <url><loc>https://shelfwise-frontend.vercel.app/courses.html</loc><changefreq>weekly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://shelfwise-frontend.vercel.app/ebooks.html</loc><changefreq>weekly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://shelfwise-frontend.vercel.app/software.html</loc><changefreq>weekly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://shelfwise-frontend.vercel.app/reviews.html</loc><changefreq>weekly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://shelfwise-frontend.vercel.app/comparison.html</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://shelfwise-frontend.vercel.app/blog.html</loc><changefreq>weekly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://shelfwise-frontend.vercel.app/about.html</loc><changefreq>monthly</changefreq><priority>0.5</priority></url>
+  <url><loc>https://shelfwise-frontend.vercel.app/contact.html</loc><changefreq>monthly</changefreq><priority>0.4</priority></url>
+  <url><loc>https://shelfwise-frontend.vercel.app/affiliate-disclosure.html</loc><changefreq>yearly</changefreq><priority>0.3</priority></url>
+  <url><loc>https://shelfwise-frontend.vercel.app/python-for-everybody-review.html</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://shelfwise-frontend.vercel.app/google-data-analytics-review.html</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://shelfwise-frontend.vercel.app/grammarly-review.html</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://shelfwise-frontend.vercel.app/atomic-habits-review.html</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://shelfwise-frontend.vercel.app/1929-sorkin-review.html</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://shelfwise-frontend.vercel.app/choosing-an-online-programming-course.html</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+</urlset>

@@ -2,9 +2,17 @@
 
 Static frontend for Shelfwise, ready to push to GitHub and deploy on Vercel.
 
+## SEO files
+- sitemap.xml — lists every real content page (excludes review-template.html,
+  which is a placeholder/demo page, not real content)
+- robots.txt — allows crawling, points to the sitemap, disallows review-template.html
+Submit sitemap.xml to Google Search Console after deploying (see chat for steps).
+
 ## Real content (not demo/placeholder)
 - affiliate-disclosure.html — required now that a real Amazon affiliate link is live;
   linked from every page's footer
+- 1929-sorkin-review.html — review of Andrew Ross Sorkin's #1 NYT bestseller,
+  including genuine mixed critical reception (not just praise)
 - python-for-everybody-review.html — Coursera's Python for Everybody Specialization
 - google-data-analytics-review.html — Google's Data Analytics Professional Certificate
 - grammarly-review.html — Grammarly's free vs Pro plans
